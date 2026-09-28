@@ -17,6 +17,7 @@ def transform_data(spark):
 
     # final_df = orders_df.join(customers_df,'customer_id').join(products_df,'product_id')
     # final_df.show()
+    final_df_brod = (orders_df.join(broadcast(customers_df),'customer_id').join(broadcast(products_df),'product_id'))
 
     final_df = (orders_df.join(broadcast(customers_df),'customer_id').join(broadcast(products_df),'product_id'))
 
