@@ -1,0 +1,59 @@
+INFO:root:Validation Started
+INFO:root:total record: 4
+INFO:root:Validation Completed
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Transform Started
+INFO:root:Transform Stop
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Validation Started
+INFO:root:total record: 4
+INFO:root:Validation Completed
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Validation Started
+INFO:root:Validation Started
+INFO:root:Transform Started
+INFO:root:Transform Completed Successfully
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Validation Started
+INFO:root:Transform Started
+INFO:root:Transform Completed Successfully
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Validation Started
+INFO:root:total record: 4
+INFO:root:Validation Completed
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:root:Validation Started
+INFO:root:Transform Started
+INFO:root:total record: 4
+INFO:root:Validation Completed
+INFO:root:Transform Completed Successfully
+INFO:py4j.clientserver:Closing down clientserver connection
+2026-09-28 15:27:59,632 -INFO - Validation Started
+2026-09-28 15:27:59,637 -INFO - Transform Started
+2026-09-28 15:28:14,147 -INFO - total record: 4
+2026-09-28 15:28:15,266 -INFO - Validation Completed
+2026-09-28 15:28:18,934 -INFO - Transform Completed Successfully
+2026-09-28 15:28:19,161 -INFO - Closing down clientserver connection
+2026-09-28 15:42:00,273 -INFO - Validation Started
+2026-09-28 15:42:00,302 -INFO - Transform Started
+2026-09-28 15:42:12,887 -INFO - total record: 4
+2026-09-28 15:42:14,097 -INFO - Validation Completed
+2026-09-28 15:42:18,020 -INFO - Closing down clientserver connection
+2026-09-28 15:46:26,299 -INFO - Validation Started
+2026-09-28 15:46:26,308 -INFO - Transform Started
+2026-09-28 15:46:39,392 -INFO - total record: 4
+2026-09-28 15:46:40,522 -INFO - Validation Completed
+2026-09-28 15:46:44,336 -INFO - Transform Completed Successfully
+2026-09-28 15:46:44,464 -INFO - Closing down clientserver connection
+2026-09-28 15:49:26,397 -INFO - Validation Started
+2026-09-28 15:49:26,399 -INFO - Transform Started
+2026-09-28 15:49:35,963 -INFO - total record: 4
+2026-09-28 15:49:37,125 -INFO - Validation Completed
+2026-09-28 15:49:40,719 -INFO - Transform Completed Successfully
+2026-09-28 15:49:40,781 -INFO - Closing down clientserver connection
+2026-09-28 15:52:06,680 -INFO - Validation Started
+2026-09-28 15:52:06,681 -INFO - Transform Started
+2026-09-28 15:52:15,819 -INFO - total record: 4
+2026-09-28 15:52:16,906 -INFO - Validation Completed
+2026-09-28 15:52:20,217 -INFO - Transform Completed Successfully
+2026-09-28 15:52:20,963 -INFO - Closing down clientserver connection
