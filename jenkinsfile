@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+
+    stages {
+
+        stage('Validate') {
+            steps {
+                bat '''
+                cd /d "C:\\Users\\DhawalTete\\OneDrive - IBM\\projects\\e-commerce_project\\scripts"
+                "C:\\Users\\DhawalTete\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" validate.py
+                '''
+            }
+        }
+
+        stage('Transform') {
+            steps {
+                bat '''
+                cd /d "C:\\Users\\DhawalTete\\OneDrive - IBM\\projects\\e-commerce_project\\scripts"
+                "C:\\Users\\DhawalTete\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" etl.py
+                '''
+            }
+        }
+    }
+}
