@@ -9,10 +9,9 @@ logging.basicConfig(
     format="%(asctime)s -%(levelname)s - %(message)s"
 )
 
-print("Transform py Started")
-logging.info("Transform Started")
-
 def transform_data(spark):
+    print("Transform py Started")
+    logging.info("Transform Started")
     orders_df, customers_df, products_df = read_data(spark)
 
     # final_df = orders_df.join(customers_df,'customer_id').join(products_df,'product_id')
@@ -41,19 +40,17 @@ def transform_data(spark):
     rank_customers = top_customer.withColumn('rank',row_number().over(window_spec))
     rank_customers.show()
 
-    # rank_customers.write.mode("overwrite").option("header",True).csv("../output/ranked_customers")
-    # rank_customers.toPandas().to_csv("../output/ranked_customers.csv",index=False)
 
-    print("Before Pandas Conversion")
-    pdf = rank_customers.toPandas()
-    print("After Pandas Conversion")
-    pdf.to_csv(
-    "../output/ranked_customers.csv",
-    index=False
-    )
-    print("CSV Written Successfully")
+    # pdf = rank_customers.toPandas()
+
+    # pdf.to_csv("../output/ranked_customers.csv",
+    # index=False)
+    
+    # print("CSV Written Successfully")
 
     logging.info("Transform Completed Successfully")
     print("Transform Stop")
+
+    return rank_customers
 
 # spark.stop()

@@ -14,7 +14,7 @@ spark = SparkSession.builder.appName("Retail ETL").getOrCreate()
 
 print("ETL py started")
 # validate_data(spark)
-transform_data(spark)
-laod_data(spark)
+rank_customer = transform_data(spark)
+laod_data(rank_customer)
 
 spark.stop()
