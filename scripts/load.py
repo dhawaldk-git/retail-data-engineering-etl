@@ -1,5 +1,5 @@
 # from pyspark.sql import SparkSession
-from ..sql.create_database import get_database
+from sql.create_database import get_database
 
 # spark = SparkSession.builder.appName("Load").getOrCreate()
 
